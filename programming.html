@@ -4,6 +4,8 @@
   <title>Programming</title>
   <meta charset="utf-8">
   <!-- <link rel="stylesheet" href="prog.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -11,6 +13,13 @@
 </head>
 <style>
  /* navbar */
+ body {
+  font-family: 'sans-serif' !important;
+}
+ .font
+ {
+    font-family: sans-serif;
+ }
 .nav1
 {
     color: white;
@@ -20,7 +29,7 @@
 
 ul.update {
   list-style-type: circle;
-  color: white;
+ color:rgb(216, 216, 216);
 }
 
 .end
@@ -30,7 +39,7 @@ ul.update {
 
 .textcol
 {
-    color:white;
+    color:rgb(216, 216, 216);
     text-align: justify;
 }
 .image
@@ -89,7 +98,7 @@ ul.update
 
 .textcol
 {
-    color:white;
+    /* color:white; */
     text-align: justify;
     padding:0 5% 0 5%;
 }
@@ -134,6 +143,10 @@ ul.update
 }
 @media only screen and  (min-device-width:1441px) and (max-device-width:1920px) 
 {
+    .col-lg-8 .spacing
+    {
+        width:100%;
+    }
     body{
         
         background-color: rgb(90, 88, 88);
@@ -152,7 +165,7 @@ ul.update
 ul.update
 {
     
-    padding-left: 130px;
+    padding-left: 250px;
 }
 .updatetime {
     font-size: 18px;
@@ -181,20 +194,20 @@ ul.update
 
 .textcol
 {
-    color:white;
+    /* color:white; */
     text-align: justify;
     padding:0 5% 0 5%;
 }
 .imageprog
 {
     padding:4% 0 4% 0;
-    height:280px;
-    width:190px;
+    height:230px;
+    width:140px;
 }
 .imagejs
 {
     padding:4% 0 4% 0;
-    height:280px;
+    height:240px;
     width:300px;
 }
 .imager{
@@ -203,17 +216,29 @@ ul.update
     height:280px;
     width:450px;
 }
+.imagego
+{
+    padding:4% 0 4% 0;
+    height:200px;
+    width:190px; 
+}
+.imagecsharp
+{
+    padding:4% 0 4% 0;
+    height:230px;
+    width:220px;
+}
 .imagekotlin
 {
     padding:4% 0 4% 0;
     height:300px;
-    width:280px;
+    width:240px;
 }
 .imagephp
 {
     padding:4% 0 4% 0;
-    height:300px;
-    width:500px;
+    height:280px;
+    width:450px;
 
 }
 .imagescala
@@ -221,7 +246,7 @@ ul.update
     
     padding:4% 0 4% 0;
     height:210px;
-    width:130px;
+    width:100px;
 }
 }
 @media only screen and (min-device-width:767px) and (max-device-width:1440px) 
@@ -241,7 +266,7 @@ ul.update
 
 .textcol
 {
-    color:white;
+    /* color:white; */
     text-align: justify;
     padding:0 5% 0 5%;
 }
@@ -289,40 +314,53 @@ font-size: 15px;
   .imageprog
 {
     padding:4% 0 4% 0;
-    height:250px;
-    width:180px;
+    height:200px;
+    width:130px;
 }
 .imagejs
 {
     padding:4% 0 4% 0;
-    height:280px;
-    width:300px;
+    height:200px;
+    width:250px;
+}
+.imagego
+{
+    padding:4% 0 4% 0;
+    height:190px;
+    width:190px; 
+}
+.imagecsharp
+{
+    padding:4% 0 4% 0;
+    height:200px;
+    width:220px;
 }
 .imager{
     
     padding:4% 0 4% 0;
-    height:280px;
-    width:450px;
+    height:220px;
+    width:390px;
 }
 .imagekotlin
 {
     padding:4% 0 4% 0;
-    height:300px;
-    width:280px;
+    height:220px;
+    width:200px;
 }
+
 .imagephp
 {
     padding:4% 0 4% 0;
-    height:300px;
-    width:500px;
+    height:200px;
+    width:400px;
 
 }
 .imagescala
 {
     
     padding:4% 0 4% 0;
-    height:210px;
-    width:130px;
+    height:160px;
+    width:80px;
 }
 }
 
@@ -457,7 +495,7 @@ font-size: 15px;
     <div class="topnavbar" style="overflow-x: hidden;">
         <nav class="navbar navbar-inverse" style="width: 100%;">
           <ul class="nav navbar-nav left">
-           <li> <a href="#" class="nav1">TechSnap</a></li>
+           <li> <a href="#" class="nav1 font" >TechSnap</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right end">
             <li><a href="#" class="nav1">Home</a></li>
@@ -466,24 +504,17 @@ font-size: 15px;
         </nav>
         </div>
         <!-- text -->
-        <div class="row">
+        <div class="row ">
             <div class="col-lg-8 col-md-8 col-sm-12 col-12 firstcol">
               
         <div class="container spacing">
-
-            <!-- <h1 style="color: white;font-family: -apple-system, BlinkMacSystemFont, 
-            'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-             sans-serif;text-align: center" class="heading textcol ">
-           A list of programming languages that a beginner should know</h1> -->
            <div class="row">
             <div class="text textcol col-8">
                 
         
         
-                <h2 style="color: white;font-family: -apple-system, BlinkMacSystemFont, 
-                'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-                 sans-serif;text-align: center;">A list of programming languages that a beginner should know.
-</h2>
+                <h3 style="text-align: center;color: red;">A list of programming languages that a beginner should know.
+</h3>
         
         </div>
         </div> 
@@ -494,7 +525,7 @@ font-size: 15px;
 <!-- intro -->
 
 <div class="row">
-    <div class="text textcol col-8"><b><i> So first, WHAT IS PROGRAMMING?</i></b></div>
+    <div class="text textcol col-8" style="color: red;"> So first, what is programming?</div>
 </div>
 
 
@@ -506,9 +537,7 @@ font-size: 15px;
 </div>
 </div>
 <div class="row">
-    <div class="text textcol col-8"><b><i>
-        So what's  so cool about programming?</i></b>
-</div>
+    <div class="text textcol col-8" style="color: red;">So what's  so cool about programming?</div>
 </div>
 <div class="row">
     <div class="text textcol col-8">
@@ -526,8 +555,7 @@ font-size: 15px;
 </div>
 </div>
 <div class="row">
-    <div class="text textcol col-8"><b><i>
-        What's your favorite movie?</i></b>
+    <div class="text textcol col-8"    style="color: red;" >   What's your favorite movie?
 </div>
 </div>
 <div class="row">
@@ -539,7 +567,7 @@ and of course, where you are now, Techsnap.
 </div>
 </div>
 <div class="row">
-    <div class="text textcol col-8"><b>Here, on Techsnap, we'll provide you clean information about top 12 programming languages and path to learn and to master them.</b></div>
+    <div class="text textcol col-8" style="color: rgb(24, 155, 216);">Here, on Techsnap, we'll provide you clean information about top 12 programming languages and path to learn and to master them.</div>
 </div>
 
 <div class="row">
@@ -547,9 +575,7 @@ and of course, where you are now, Techsnap.
         
 
 
-        <h2 style="color: white;font-family: -apple-system, BlinkMacSystemFont, 
-        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-         sans-serif;text-align: center;">Let’s start with the Languages that may probably Let you up in your Programming Career!</h2>
+        <h3 style="text-align: center;color:red;">Let’s start with the Languages that may probably Let you up in your Programming Career!</h3>
 
 </div>
 </div> 
@@ -558,9 +584,9 @@ and of course, where you are now, Techsnap.
 
 <!-- python -->
  <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
     
-        1.Python </h1>
+       <a href='#' style="text-decoration: none;">1. Python</a>  </p>
     </div>
     <div class="row">
   <img src="python.png" class="img-responsive center-block d-block mx-auto imageprog imagepython" alt="Sample Image">
@@ -584,31 +610,20 @@ Blender, Inkscape, and Autodesk. It is extensively used in development of games 
 Vegas Trike, and Disney's Toontown as it has library like PySoy which provides 3D game engine support. </div>
 </div>
 
+<ul class="text textcol">
+ <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;"> Level : </a>beginner – Python allows a beginner to become expert quickly</li>
+<li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>problem-solving, abstract thinking</li>
+<li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>widely used, popular in both technical education and business use</li>
+<li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$117,000</li>
+</ul>
 
-<div class="row">
-    <div class="text textcol col-8">Level : beginner – Python allows a beginner to become expert quickly
-        </div>
-</div>
-
-<div class="row">
-    <div class="text textcol col-8">Skills Needed : problem-solving, abstract thinking
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">Degree of Use: widely used, popular in both technical education and business use
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">Annual Salary Projection : $117,000
-        </div>
-</div>
 
 
  <!-- java -->
  <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
     
-        2.Java </h1>
+        <a href='#' style="text-decoration: none;">2. Java</a>  </p>
     </div>
     <div class="row">
   <img src="java.png" class="img-responsive center-block d-block mx-auto imageprog imagejava" alt="Sample Image">
@@ -636,28 +651,19 @@ Vegas Trike, and Disney's Toontown as it has library like PySoy which provides 3
         Also used in Big Data technologies, Scientific Applications, Enterprise Applications, Business Applications.And Java programmers are actively involved 
         in a variety of forums where they vet ideas or solve programming problems. Java has a vast community and gets a lot of support. </div>
 </div>
-<div class="row">
-    <div class="text textcol col-8">Level : intermediate
-        </div>
-</div>
+<ul class="text textcol">
+    <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;"> Level : </a>intermediate</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>problem-solving, basic knowledge of the Object-Oriented concepts</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>widely used, higly applicable</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$91,471</li>
+   </ul>
 
-<div class="row">
-    <div class="text textcol col-8">Skills Needed : problem-solving, basic knowledge of the Object-Oriented concepts
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">Degree of Use: widely used, higly applicable
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">Annual Salary Projection : $91,471
-        </div>
-</div>
 <!-- C and c++ -->
 <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
     
-        3.C/C++ </h1>
+        <a href='#' style="text-decoration: none;">3. C/C++</a>  </p> 
+    
     </div>
     <div class="row">
   <img src="c++.png" class="img-responsive center-block d-block mx-auto imageprog imagec" alt="Sample Image">
@@ -690,38 +696,19 @@ like Apple, Microsoft's Windows and Internet Explorer too. </div>
         C and C++ developers can make use of compilers for a wide variety of platforms, making applications developed in these languages largely transportable. 
         Both C and C++ are considered as high-performance languages.</div>
 </div>
-<div class="row">
-    <div class="text textcol col-8">
-        Skills Needed : problem-solving, basic computer knowledge. As C and C++ are geared towards low-level management of computer resources,
-                        knowledge of computer functions such as memory management is beneficial
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">Level : C - intermediate to advanced, C++ - beginner to intermediate
-        </div>
-</div>
-
-<div class="row">
-    <div class="text textcol col-8">Skills Needed : problem-solving, basic knowledge of the Object-Oriented concepts
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Degree of Use : both are most widely used languages 
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Annual Salary Projection : $83,231
-        </div>
-</div>
+<ul class="text textcol">
+    <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;"> Level : </a>C - intermediate to advanced, C++ - beginner to intermediate</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>problem-solving, basic knowledge of the Object-Oriented concepts</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>both are most widely used languages</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$83,231</li>
+   </ul>
 
 <!-- Javascript -->
 
 <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
     
-        4.JavaScript </h1>
+        <a href='#' style="text-decoration: none;">4. Javascript</a>  </p>
     </div>
     <div class="row">
   <img src="js.png" class="img-responsive center-block d-block mx-auto imagejs " alt="Sample Image">
@@ -751,31 +738,20 @@ like Apple, Microsoft's Windows and Internet Explorer too. </div>
 It is used at the front end of developing popular websites like Google, YouTube, Facebook, and Amazon.  
  </div>
 </div>
-<div class="row">
-    <div class="text textcol col-8">
-        Level : intermediate
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Skills Needed : some familarity with HTML, CSS languages
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Degree of Use: one of the world’s most used language according to Github's 2020 Octoverse Report
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Annual Salary Projection : $84,000
-        </div>
-</div>
+
+<ul class="text textcol">
+    <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;"> Level : </a>intermediate</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>some familarity with HTML, CSS languages</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>one of the world’s most used language according to Github's 2020 Octoverse Report</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$84,000</li>
+   </ul>
+
 <!-- Swift -->
 <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
+   
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
     
-        5.Swift</h1>
+        <a href='#' style="text-decoration: none;">5. Swift</a>  </p>
     </div>
     <div class="row">
   <img src="swift.jpg" class="img-responsive center-block d-block mx-auto imageprog imageswift" alt="Sample Image">
@@ -800,39 +776,23 @@ It is used at the front end of developing popular websites like Google, YouTube,
         compatible features for it's users.
         </div>
 </div>
-<div class="row">
-    <div class="text textcol col-8">
-Popularity : not popular as other languages since it is iOS based language
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-Level : beginner
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Skills Needed : Oject-Oriented languages like C++, Objective-C or JavaScript
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Degree of Use: widely used for development of iOS and Mac OS applications
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Annual Salary Projection : $84,423
-        </div>
-</div>
+<ul class="text textcol">
+    <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Popularity : </a>not popular as other languages since it is iOS based language</li>
+    <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Level : </a>beginner</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>Oject-Oriented languages like C++, Objective-C or JavaScript</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>widely used for development of iOS and Mac OS applications</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$84,423</li>
+   </ul>
+
 <!-- Csharp-->
 <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
     
-        6.C#</h1>
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
+    
+        <a href='#' style="text-decoration: none;">6. C#</a>  </p>
     </div>
     <div class="row">
-  <img src="Csharp.png" class="img-responsive center-block d-block mx-auto imagejs imagecsharp" alt="Sample Image">
+  <img src="Csharp.png" class="img-responsive center-block d-block mx-auto imagecsharp" alt="Sample Image">
 </div>
 
 <div class="row">
@@ -863,32 +823,21 @@ C# is pronounced "C-Sharp".
         What not? It is used in developing from Web applications to Desktop applications. Hence, it's important and worthy to learn C# language.
          </div>
 </div>
-<div class="row">
-    <div class="text textcol col-8">
-        Level : beginner to intermediate
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Skills Needed : basic understanding of C or C++ programming
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Degree of Use: traditionally popular within the desktop developer community
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Annual Salary Projection : $80,000
-        </div>
-</div>
+
+<ul class="text textcol">
+    <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Level : </a>beginner to intermediate</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>basic understanding of C or C++ programming</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>traditionally popular within the desktop developer community</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$80,000</li>
+   </ul>
+
 <!-- Ruby-->
 
 <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
     
-        7.Ruby </h1>
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
+    
+        <a href='#' style="text-decoration: none;">7. Ruby</a>  </p>
     </div>
     <div class="row">
   <img src="ruby.png" class="img-responsive center-block d-block mx-auto imageprog imageruby" alt="Sample Image">
@@ -915,31 +864,20 @@ interest for the language among developers.
         library known as "Rails" for it's capability of supporting and providing ease to develop many WebApps such as GitHub, shopify, twitch, ConvertKit.
         </div>
 </div>
-<div class="row">
-    <div class="text textcol col-8">
-        Level : absolutely beginner 
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Skills Needed : basic understanding of any programming languages
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Degree of Use: least broadly used
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Annual Salary Projection : $95,000
-        </div>
-</div>
+
+<ul class="text textcol">
+    <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Level : </a>absolutely beginner</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>basic understanding of any programming languages</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>least broadly used</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$95,000</li>
+   </ul>
+
 <!-- R-->
 <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
+
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
     
-        8.R  </h1>
+        <a href='#' style="text-decoration: none;">8. R</a>  </p>
     </div>
     <div class="row">
   <img src="R.png" class="img-responsive center-block d-block mx-auto imager" alt="Sample Image">
@@ -964,32 +902,21 @@ wide range of tools to encapsulate the right model for our data.
 R is the first choice in the healthcare industry, followed by government and consulting.
         </div>
 </div>
-<div class="row">
-    <div class="text textcol col-8">
-        Level : intermediate 
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Skills Needed : basic understanding of any programming languages
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Degree of Use : most widely used for analyzing data and in data science field
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Annual Salary Projection : $80,149
-        </div>
-</div>
+
+<ul class="text textcol">
+    <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Level : </a>intermediate</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>basic understanding of any programming languages</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>most widely used for analyzing data and in data science field</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$80,149</li>
+   </ul>
+
 
 <!-- kotlin -->
 <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
     
-        9.Kotlin </h1>
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
+    
+        <a href='#' style="text-decoration: none;">9. Kotlin</a>  </p>
     </div>
     <div class="row">
   <img src="kotlin.png" class="img-responsive center-block d-block mx-auto imagekotlin" alt="Sample Image">
@@ -1015,31 +942,22 @@ gradual releases, any functionality can be added, removed or manipulated without
         Kotlin is also used for web development, server side applications,data science and much more! Our daily used Application Pinterest was built with Kotlin.
         </div>
 </div>
-<div class="row">
-    <div class="text textcol col-8">
-        Level : beginner
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Skills Needed : basic knowledge of java
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Degree of Use : most widely used for any kind of development
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Annual Salary Projection : $100,000
-        </div>
-</div>
+
+
+
+<ul class="text textcol">
+    <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Level : </a>beginner</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>basic knowledge of java</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>most widely used for any kind of development</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$100,000</li>
+   </ul>
+
 <!-- php -->
 <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
     
-        10.PHP </h1>
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
+    
+        <a href='#' style="text-decoration: none;">10. Php</a>  </p>
     </div>
     <div class="row">
   <img src="php.png" class="img-responsive center-block d-block mx-auto imagephp" alt="Sample Image">
@@ -1068,35 +986,23 @@ It's syntax is similar with C.</div>
         implanted in HTML files and thier codes can also be written in a PHP file.
         </div>
     </div>
-<div class="row">
-    <div class="text textcol col-8">
-        Level : beginner to advanced
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Skills Needed : basic knowledge in HTML, CSS, JavaScript
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Degree of Use : mostly used for web development
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Annual Salary Projection : $69,000
-        </div>
-</div>
+
+    <ul class="text textcol">
+        <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Level : </a>beginner to advanced</li>
+       <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>basic knowledge in HTML, CSS, JavaScript</li>
+       <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>mostly used for web development</li>
+       <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$69,000</li>
+       </ul>
 
 <!--Googlego-->
 <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
+  
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
     
-        11.Go </h1>
+        <a href='#' style="text-decoration: none;">11. Go</a>  </p>
     </div>
     <div class="row">
-  <img src="golang.png" class="img-responsive center-block d-block mx-auto imagekotlin imagego" alt="Sample Image">
+  <img src="golang.png" class="img-responsive center-block d-block mx-auto  imagego" alt="Sample Image">
 </div>
 
 <div class="row">
@@ -1118,34 +1024,22 @@ It's syntax is similar with C.</div>
     <div class="text textcol col-8">
       
 Go can provide as Web server between computers and Databases. Golang is used in Big Data and Parallel Processing Applications.
-Level : beginner
 </div>
 </div>
-<div class="row">
-    <div class="text textcol col-8">
-        Level : beginner</div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Skills Needed : must have a good command over C language
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Degree of Use : least boardly used
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Annual Salary Projection : $100,000
-        </div>
-</div>
+<ul class="text textcol">
+    <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Level : </a>beginner</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>must have a good command over C language</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>least boardly used</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$100,000</li>
+   </ul>
+
 <!--scala-->
 
 <div class="row heading">
-    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="heading textcol">
     
-        12.Scala </h1>
+    <p class="heading textcol" style="font-weight: 400;font-size: 28px;">
+    
+        <a href='#' style="text-decoration: none;">12. Scala</a>  </p>
     </div>
     <div class="row">
   <img src="scala.png" class="img-responsive center-block d-block mx-auto imagescala" alt="Sample Image">
@@ -1172,32 +1066,18 @@ which only few people could realize and probably will seen as a future replaceme
         However the applications of Scala are way high such as Distributed Applications, Streaming Data, Analyzing Data with Spark and etc..
         For the web applications it provides the support by compiling to JavaScript. </div>
 </div>
-<div class="row">
-    <div class="text textcol col-8">
-        Level : beginner to intermediate
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Skills Needed : basic understanding on Java, C, C++
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Degree of Use : highly applicable
-        </div>
-</div>
-<div class="row">
-    <div class="text textcol col-8">
-        Annual Salary Projection : $79,000
-        </div>
-</div>
+
+<ul class="text textcol">
+    <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Level : </a>beginner to intermediate</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Skills Needed : </a>basic understanding on Java, C, C++</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Degree of Use : </a>highly applicable</li>
+   <li style="padding-bottom: 2%;">  <a style="color: rgb(24, 155, 216);text-decoration: none;">Annual Salary Projection : </a>$79,000</li>
+   </ul>
+
 <!-- end -->
 
 <div class="row">
-    <div class="text textcol col-8">
-       <b>How to Get Started :</b> 
-        </div>
+    <div class="text textcol col-8" style="color: red;">How to Get Started :        </div>
 </div>
 <div class="row">
     <div class="text textcol col-8">
@@ -1211,16 +1091,15 @@ requirements and needs.
 </div>
 <div class="row"></div>
 <div class="row">
-    <div class="text textcol col-8">
-       <b><i>GOOD LUCK!</i></b> 
+    <div class="text textcol col-8" style="color: rgb(24, 155, 216);">
+       GOOD LUCK!
         </div>
 </div>
 
 <div class="row"></div>
 <div class="row"></div>
 <div class="row">
-    <div class="text textcol col-8">
-       <b>        Contact us :</b> 
+    <div class="text textcol col-8" style="color: red;"> Contact us :
         </div>
 </div>
 
