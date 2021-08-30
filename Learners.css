@@ -476,9 +476,9 @@ button:focus
   @media only screen and (min-device-width:320px) and (max-device-width:425px)
   {
     .text {
-        font-size: 15px;
+        font-size: 10px;
        text-align: center;
-       line-height: 11px;
+       line-height: 6px;
        padding-top: 15%;
       }
       .page{
