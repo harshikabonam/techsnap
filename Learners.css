@@ -478,10 +478,18 @@ button:focus
     .text {
         font-size: 10px;
        text-align: center;
-       line-height: 6px;
-       padding-top: 15%;
+       line-height: 1px;
+       padding-top: 8%;
       }
       .page{
         padding-top: 10%
       }
+      .qua{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 500;
+      }
+     
   }
