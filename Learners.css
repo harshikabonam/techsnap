@@ -517,3 +517,8 @@ button:focus
           padding-top:5%;
       }
   }
+  .col-2  .icons
+  {
+      width: 65px;
+  }
+  
