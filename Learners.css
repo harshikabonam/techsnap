@@ -221,13 +221,22 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+    
+}
+.link{
+    color: rgba(192, 192, 192, 0.788);
+}
+.link:hover
+{
+    color: white;
+    
 }
 .Privacy_links a {
 	font-weight: 500;
 	width: fit-content;
 	text-decoration: none;
 	font-size: 0.8rem;
-	color: rgba(255, 255, 255, 0.938);
+	/* color: rgba(255, 255, 255, 0.938); */
 	transition: all 0.5s ease;
 }
 .Social-media {
@@ -360,7 +369,7 @@ body {
 {
     color: white;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 1%;
 }
 .uiimages
 {
@@ -458,7 +467,10 @@ button:focus
     transform: translate(-50%, -50%);
     font-weight: 500;
   }
- 
+ .purpose
+ {
+     padding: 8%;
+ }
   @media only screen and (min-device-width:768px) and (max-device-width:2560px)
   {
       .design
@@ -479,7 +491,7 @@ button:focus
         font-size: 10px;
        text-align: center;
        line-height: 1px;
-       padding-top: 8%;
+       padding-top: 9%;
       }
       .page{
         padding-top: 10%
@@ -491,5 +503,17 @@ button:focus
         transform: translate(-50%, -50%);
         font-weight: 500;
       }
-     
+      .icons
+      {
+          width: 65px;
+          /* padding-left: 5%; */
+      }
+      .head{
+          padding-top: 10%;
+          padding-bottom: 14%;
+      }
+      .head .row
+      {
+          padding-top:5%;
+      }
   }
