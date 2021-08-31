@@ -494,11 +494,16 @@ button:focus
   }
   @media only screen and (min-device-width:319px) and (max-device-width:425px)
   {
+    .icons
+    {
+        width: 65px;
+    }
+    
     .head{
         background-image:url("ill_header_3.png");
         background-repeat:no-repeat;
         background-position:right top;
-        background-size:35%  35%;
+        background-size:35%  3%;
       }
     .text {
         font-size: 10px;
@@ -534,11 +539,7 @@ button:focus
           padding-top:5%;
       }
   }
-  .col-2  .icons
-  {
 
-      width: 65px;
-  }
   
   
  
