@@ -478,6 +478,12 @@ button:focus
       {
         background: linear-gradient(to bottom, #008CBA 0%,#008CBA 55%,#000000 50%,black 50%,black 100%);
     }
+    .head{
+        background-image:url("ill_header_3.png");
+        background-repeat:no-repeat;
+        background-position:right top;
+        background-size: 50% 90%;
+      }
   }
   @media only screen and (min-device-width:320px) and (max-device-width:767px)
   {
@@ -492,7 +498,7 @@ button:focus
         background-image:url("ill_header_3.png");
         background-repeat:no-repeat;
         background-position:right top;
-        background-size:1%  15%;
+        background-size:35%  35%;
       }
     .text {
         font-size: 10px;
@@ -500,8 +506,12 @@ button:focus
        line-height: 1px;
        padding-top: 9%;
       }
+      .head .headtext{
+          
+        padding-top: 15%
+      }
       .page{
-        padding-top: 10%
+        padding-top: 15%
       }
       .qua{
         position: absolute;
@@ -531,9 +541,4 @@ button:focus
   }
   
   
-  .head{
-    background-image:url("ill_header_3.png");
-    background-repeat:no-repeat;
-    background-position:right top;
-    background-size: 50% 90%;
-  }
+ 
