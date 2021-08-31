@@ -523,10 +523,10 @@ button:focus
     }
     
     .head{
-        background-image:url("ill_header_3.png");
+        /* background-image:url("ill_header_3.png");
         background-repeat:no-repeat;
         background-position:right top;
-        background-size:35%  3%;
+        background-size:35%  30%; */
       }
     .text {
         font-size: 10px;
@@ -536,10 +536,10 @@ button:focus
       }
       .head .headtext{
           
-        padding-top: 15%
+        padding-top: 10%
       }
       .page{
-        padding-top: 15%
+        padding-top: 10%
       }
       .qua{
         position: absolute;
